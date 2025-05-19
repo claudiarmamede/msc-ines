@@ -33,3 +33,15 @@ To run simple CodeQL queries in this codespace:
 You can find [CodeQL tutorials](https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/) in our CodeQL documentation. The tutorials introduce concepts that you can use this codespace to practice.
 
 We also have [CodeQL language guides](https://codeql.github.com/docs/codeql-language-guides/) to help you experiment and learn how to write effective and efficient queries for CodeQL databases generated from the languages supported in CodeQL analysis.
+
+
+
+
+### Setup the environment
+#### From the start.
+1. Make sure /store contains the target project (it cannot be empty)
+2. Make sure it is in the right commit. Run `git checkout c0df716`
+
+3. Build the database from folder. First, check that `codeql` is installed. Then, run `codeql database create our-database --language=javascript --source-root=. --overwrite` from /store. `our-database` will be stored under /store.
+4. Go to `QL extension` and add CodeQL databased from `store/our-database` folder.
+

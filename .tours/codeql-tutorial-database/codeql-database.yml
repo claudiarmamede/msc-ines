@@ -1,9 +1,10 @@
 ---
-sourceLocationPrefix: "/workspaces/codeql-codespaces-template/tmp-src"
-baselineLinesOfCode: 0
-unicodeNewlines: false
-columnKind: "utf16"
-primaryLanguage: "csv"
+sourceLocationPrefix: /workspaces/msc-ines/store
+baselineLinesOfCode: 12485
+unicodeNewlines: true
+columnKind: utf16
+primaryLanguage: javascript
 creationMetadata:
-  cliVersion: "2.10.5"
-  creationTime: "2022-09-23T21:54:50.723647719Z"
+  cliVersion: 2.21.3
+  creationTime: 2025-05-19T17:48:41.454698945Z
+finalised: true
