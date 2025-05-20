@@ -4,17 +4,13 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "Welcome to the CodeQL tour!\n\nIn the next steps, we'll start exploring the CodeQL extension. If this is your first time activating the extension, you may be prompted to reload your workspace and decide whether to allow telemetry.\n\nTo get started, click 'Next (The CodeQL extension)'.",
+      "description": "Welcome to the CodeQL tour!\n\nIn the next steps, we'll help you setup CodeQL for our user study! 📚 \n\n If this is your first time activating the extension, you may be prompted to reload your workspace. Please, do it 🙂 \n\nTo get started, click 'Next (The CodeQL extension)'.",
       "title": "Welcome!"
     },
     {
-      "description": "The CodeQL extension adds rich language support for CodeQL and allows you to easily find problems in codebases.",
+      "description": "The CodeQL extension helps you to easily find problems in codebases. \n\n Let's set up CodeQL and find some issues in our code! 😈 ",
       "title": "The CodeQL extension",
       "view": "codeQLDatabases"
-    },
-    {
-      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://docs.github.com/en/code-security/codeql-cli).",
-      "title": "The CodeQL CLI"
     },
     {
       "directory": ".tours/codeql-tutorial-database",
@@ -22,7 +18,7 @@
       "commands": [
         "codeQL.setDefaultTourDatabase"
       ],
-      "title": "Your first database"
+      "title": "Setup the codebase"
     },
     {
       "title": "The CodeQL extension",
