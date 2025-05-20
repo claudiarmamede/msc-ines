@@ -8,52 +8,22 @@
       "title": "Welcome!"
     },
     {
-      "description": "The CodeQL extension helps you to easily find problems in codebases. \n\n Let's set up CodeQL and find some issues in our code! 😈 ",
-      "title": "The CodeQL extension",
+      "description": "The CodeQL extension helps you to easily find problems in codebases. \n\n > Under Language, please select JAVASCRIPT. ",
+      "title": "Selecting programming language",
       "view": "codeQLDatabases"
     },
     {
       "directory": ".tours/codeql-tutorial-database",
-      "description": "To run a CodeQL query, we first need to select [a CodeQL database](https://codeql.github.com/docs/codeql-overview/about-codeql/#about-codeql-databases).\n\nWe've just added a sample one (CodeQL Tutorial Database) and set it as your current database in the extension.",
-      "commands": [
-        "codeQL.setDefaultTourDatabase"
-      ],
-      "title": "Setup the codebase"
+      "description": "> Under Databases, please select CODEQL TUTORIAL DATABASE.",
+      "title": "Selecting the codebase"
     },
     {
-      "title": "The CodeQL extension",
-      "description": "On the left hand side, you can see the 'DATABASES' panel where the 'CodeQL Tutorial Database' is present and is selected with a check mark.",
+      "title": "Is everything set?",
+      "description": "On the left hand side, confirm that 'Javascript' and 'CodeQL Tutorial Database' are present and selected with a check mark.",
       "view": "codeQLDatabases"
     },
     {
-      "file": "tutorial-queries/tutorial.ql",
-      "description": "Now let's look at [a CodeQL query](https://codeql.github.com/docs/writing-codeql-queries/codeql-queries/).\n\nThis is a query file. It has a `.ql` file extension.",
-      "line": 1,
-      "title": "Your first query"
-    },
-    {
-      "file": "tutorial-queries/tutorial.ql",
-      "description": "This line imports the tutorial library, so that we can reuse the logic and data from this library in our own query.",
-      "pattern": "import tutorial.*",
-      "title": "Import libraries"
-    },
-    {
-      "file": "tutorial-queries/tutorial.ql",
-      "description": "This is the query clause.\n\nIt determines the output of the query. Click 'Next' to run the query!",
-      "selection": {
-        "start": {
-          "line": 7,
-          "character": 1
-        },
-        "end": {
-          "line": 8,
-          "character": 9
-        }
-      },
-      "title": "The select statement"
-    },
-    {
-      "file": "tutorial-queries/tutorial.ql",
+      "file": "codeql-custom-queries-javascript/example.ql",
       "description": "It's time to run your first query!\n\nWe started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
       "selection": {
         "start": {
@@ -85,26 +55,6 @@
       },
       "title": "Query History",
       "view": "codeQLQueryHistory"
-    },
-    {
-      "file": "tutorial-queries/tutorial.ql",
-      "description": "To run a query manually, outside this tutorial:\n\n1. Right-click within a `.ql` query file, and click 'CodeQL: Run Query on Selected Database'\nOR\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P`, start typing 'CodeQL', and click 'CodeQL: Run Query on Selected Database'.",
-      "selection": {
-        "start": {
-          "line": 7,
-          "character": 1
-        },
-        "end": {
-          "line": 9,
-          "character": 1
-        }
-      },
-      "title": "Run query yourself"
-    },
-    {
-      "description": "It's time to create your own query and analyze some real code!\n\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P` and type 'CodeQL: Create Query'.\n2. Choose the language that you'd like to analyze.\n3. Type the name of a repository with that language, so that we can download the CodeQL database for it.\n\n When the download has finished, the database will be automatically selected, so you can immediately modify and run your query!",
-      "title": "Add your own query",
-      "view": "codeQLDatabases"
     }
   ]
 }
